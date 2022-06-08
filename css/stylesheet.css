@@ -4,11 +4,19 @@ body {
 }
 
 
-
+/* Old Code
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
   width: 50%;
+} */
+
+/* LePichu: My fix to make it cross-browser */
+hr {
+  border: none;
+  border-top: 5px dotted grey;
+  background-color: lightblue;
+  width: 75%;
 }
