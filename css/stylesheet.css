@@ -1,22 +1,30 @@
 body {
-  background-color: powderblue;
+  background-color: #EAF6F6;
 
 }
 
 
-/* Old Code
+/* Old Code */
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
   border-width: 5px;
+  background-color: transparent;
   width: 50%;
-} */
+}
+
+h3 {
+  color: #66BFBF
+}
+
+h1 {
+  color: #90BFBF
+}
 
 /* LePichu: My fix to make it cross-browser */
-hr {
+/* hr {
   border: none;
   border-top: 5px dotted grey;
   background-color: lightblue;
   width: 75%;
-}
+} */
